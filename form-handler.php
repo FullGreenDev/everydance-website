@@ -6,7 +6,7 @@ $message = $_POST['message'];
 
 $email_from = 'no-reply@everydance.fr';
 
-$email_subject = '$subject';
+$email_subject = $subject;
 
 $email_body = "Nom: $name.\n".
               "Email: $visitor_email.\n".
